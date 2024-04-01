@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/65e6d2dc43.js" crossorigin="anonymous"></script> 
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo2.png" class ="logo">
+                <ul id="sidemenu">
+                    
+                    <li><a href="#header" style="--i:1;">Home</a></li>
+                    <li><a href="#about"style="--i:2;">About</a></li>
+                    <li><a href="#services"style="--i:3;">Services</a></li>
+                    <li><a href="#portfolio"style="--i:4;">Portfolio</a></li>
+                    <li><a href="#contact"style="--i:5;">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>
+                  Instrumentation Engineer
+                </p>
+                     <h1>
+                          Hey.. I'm <spann>NIKHIL</spann> 
+                          <h2>and a <span class="multiple-text"></span> </h2>
+                     </h1>
+            </div>
+        </div>
+
+    </div>  
+    
+
+    <!---------------------------about--------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <div class="single-card">
+                        <div class="front">
+                            <div class="back">
+                                <div class="content">
+                        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                 
+                </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title"> 
+                            About Me
+                        </h1>  
+                        <p> Hey there, am a perpetual learner in  intersecting  𝓒𝓻𝓮𝓪𝓽𝓲𝓿𝓲𝓽𝔂 and ＴＥＣＨＮＯＬＯＧＹ. Am in here to gain digital experiences and navigating the ever-evolving landscape of technology with finesse.
+                         </p>
+
+                     <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                     </div>
+
+                     <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>UI UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>HTML, CSS, Js</li>  
+                            <li><span>App Development</span><br>Flutter</li>
+                        </ul>
+                     </div>
+
+                     <div class="tab-contents"  id="Experience">
+                        <ul>
+                            <li><span>Fine Arts club</span><br>Vocalist / Guitarist</li>
+                            <li><span>Executive member</span><br>NSS, Blog writer, Social development club</li>
+                            <li><span>Internship</span><br>Salzer technologies , MN Auto products</li>
+                        </ul>
+                     </div>
+
+                     <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>School</span><br>Lisieux Matric Hr Sec School</li>
+                            <li><span>College</span><br>Sri Ramakrishna Engineering College</li>
+                            <li><span>Self Learning</span><br>Flutter, HTML CSS, Figma,Adobe Photoshop</li>
+                        </ul>
+                     </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<!---------------------------Services------------------------------>
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Service</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2> Web Development</h2>
+                <p></p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-figma"></i>
+                <h2> UI Design</h2>
+                <p></p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2> APP Development</h2>
+                <p></p>
+                <a href="#">Learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+<!----------------------Portfolio---------------------------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/website1.png" alt="work one">
+                <div class="layer">
+                    <h3>Food ordering website</h3>
+                    <p>A website that allows you to find foods</p>
+                    <a href="https://eatalantio.netlify.app/"><i class="fa-solid fa-earth-americas"></i></a>
+                </div>
+            </div>   
+            <div class="work">
+                <img src="images/UI.png" alt="work one">
+                <div class="layer">
+                    <h3>Food ordering app UI</h3>
+                    <p>UI design for a food delivery app in figma</p>
+                    <a href="#"><i class="fa-solid fa-earth-americas"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/App.png" alt="work one">
+                <div class="layer">
+                    <h3>Music app</h3>
+                    <p>Flutter based music app that allows you to play inbuilt music</p>
+                    <a href="#"><i class="fa-solid fa-earth-americas"></i></a>
+                </div>
+            </div>
+            
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+
+<!-----------------------------------------------Contact--------------------------------->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">  
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>nikhil.090720@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9566324875</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/_.nik._hi._l/"><span><i class="fa-brands fa-instagram"></span></i></a>
+                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/nikhil-s-983537208"><span><i class="fa-brands fa-linkedin-in"></span></i></a>
+                </div>
+                <a href=""class="btn btn2">Download CV</a>
+            </div>
+
+            
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+             <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-solid fa-at"></i> NICK-KILL</p>
+    </div>
+ </div>
+
+
+
+
+
+<!---------------------Java-Script---------------------------->
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname)
+    {
+         for(tablink of tablinks){
+            tablink.classList.remove("active-links");
+         }
+         for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+         }
+         event.currentTarget.classList.add("active-links");
+         document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+
+<script>
+
+
+    var sidemenu= document.getElementById("sidemenu");
+    function openmenu()
+    {
+        sidemenu.style.right="40px";
+    }
+    function closemenu()
+    {
+        sidemenu.style.right="-150px";
+    }
+</script>
+
+
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwyxezkj0L04ylDOruGaUEZqDrCOWCnqPRnvbn6OS3vhxW6vYHMP6FfHwn5POn08H341g/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function() {
+                msg.innerHTML= ""
+                
+            }, 5000)
+            form.reset()
+
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+ 
+ <script>
+  var typed = new Typed(".multiple-text",{
+    strings:["Designer","Frontend Developer","Tech savy","Blogger","Lowkey-Singer"],
+    typeSpeed:40,
+    backSpeed:30,
+    backDelay:500,
+    loop: true
+})
+</script>
+
+
+
+</body>
+</html>
